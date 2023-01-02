@@ -50,30 +50,79 @@
             >
           </li>
         </ul>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open js-open-menu">
           <svg class="burger-menu-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu js-menu-container">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close-btn">
-            <svg class="mobile-menu-close-icon" width="8" height="8">
-              <use href="./images/icons.svg#close-modal"></use>
-            </svg>
-          </button>
-          <ul>
-            <li>
-              <a href="">Studio</a>
+          <div class="mobile-menu-first">
+            <button class="mobile-menu-close-btn js-close-menu">
+              <svg class="mobile-menu-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#close-modal"></use>
+              </svg>
+            </button>
+            <ul class="mobile-menu-nav">
+              <li class="mobile-menu-item list">
+                <a href="" class="mobile-menu-link link">Studio</a>
+              </li>
+              <li class="mobile-menu-item list">
+                <a href="" class="mobile-menu-link link">Portfolio</a>
+              </li>
+              <li class="mobile-menu-item list">
+                <a href="" class="mobile-menu-link link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mobile-menu-second">
+            <ul class="mobile-contact-information">
+              <li class="mobile-contact-info-item list">
+                <a href="" class="mobile-phone-number link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contact-info-item list">
+                <a href="" class="mobile-mail-adress link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="mobile-menu-third"> -->
+          <ul class="mobile-menu-media-list">
+            <li class="mobile-menu-media-item list">
+              <a href="" class="mobile-menu-media-link link">
+                <svg class="mobile-menu-media-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#instagram-footer"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="">Portfolio</a>
+            <li class="mobile-menu-media-item list">
+              <a href="" class="mobile-menu-media-link link">
+                <svg class="mobile-menu-media-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#twitter-footer"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="">Contacts</a>
+            <li class="mobile-menu-media-item list">
+              <a href="" class="mobile-menu-media-link link">
+                <svg class="mobile-menu-media-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#facebook-footer"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-media-item list">
+              <a href="" class="mobile-menu-media-link link">
+                <svg class="mobile-menu-media-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin-footer"></use>
+                </svg>
+              </a>
             </li>
           </ul>
+          <!-- </div> -->
         </div>
       </div>
     </header>
@@ -548,7 +597,7 @@
         </form>
       </div>
     </div> -->
-
+    <script src="./js/mobile-menu.js"></script>
     <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
