@@ -629,8 +629,7 @@ body {
     .hero {
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/hero-mobile.webp);
+                rgba(46, 47, 66, 0.7)), url(../images/hero-mobile.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -644,7 +643,7 @@ screen and (min-resolution: 2dppx) {
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/hero-mobile@2x.webp);
+            url(../images/hero-mobile_2x.webp);
     }
 }
 
@@ -652,8 +651,7 @@ screen and (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/hero-tablet.webp);
+                rgba(46, 47, 66, 0.7)), url(../images/hero-tablet.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -666,8 +664,7 @@ screen and (min-width:768px) and (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/hero-tablet@2x.webp);
+                rgba(46, 47, 66, 0.7)), url(../images/hero-tablet_2x.webp);
     }
 }
 
@@ -675,8 +672,7 @@ screen and (min-width:768px) and (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/hero-desktop.webp);
+                rgba(46, 47, 66, 0.7)), url(../images/hero-desktop.webp);
     }
 }
 
@@ -686,10 +682,10 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/hero-desktop@2x.webp);
+                rgba(46, 47, 66, 0.7)), url(../images/hero-desktop_2x.webp);
     }
 }
+
 
 .hero {
     padding-top: 112px;
