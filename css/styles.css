@@ -1523,10 +1523,10 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     row-gap: 48px;
     column-gap: 24px;
     padding-bottom: 120px;
-
 }
 
 .portfolio-list-card {
+    flex-basis: calc((100% - 48px)/3);
     box-shadow: var(--portolio-card-shadow);
 }
 
