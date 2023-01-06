@@ -1577,6 +1577,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
     transform: translate(0, 0);
