@@ -1527,7 +1527,6 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 }
 
 .portfolio-list-card {
-    flex-basis: calc((100% - 48px)/3);
     box-shadow: var(--portolio-card-shadow);
 }
 
