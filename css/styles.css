@@ -169,7 +169,6 @@ body {
 }
 
 .mobile-menu {
-    /* display: flex; */
     position: fixed;
     width: 100%;
     height: 100%;
@@ -247,12 +246,16 @@ body {
     color: var(--button-active-color);
 }
 
+.mobile-link-current {
+    color: var(--button-active-color);
+}
+
 .mobile-phone-number {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.1;
     text-transform: capitalize;
-    color: var(--secondary-color);
+    color: var(--iris-color);
     transition: color var(--transition-dur-and-func);
 }
 
@@ -433,7 +436,7 @@ body {
 
 @media screen and (min-width:1200px) {
     .page-header-container {
-        padding-bottom: 28px;
+        padding-bottom: 24px;
     }
 
     .logo-link {
@@ -441,7 +444,7 @@ body {
     }
 
     .menu-link.current-page::after {
-        top: calc(24px + 30px - 4px);
+        top: calc(24px + 26px - 4px);
     }
 
     .contact-information {
@@ -535,6 +538,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 
 .hero {
     padding-top: 112px;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -546,6 +550,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 @media screen and (min-width:768px) {
     .hero {
         padding-bottom: 108px;
+        text-align: center;
     }
 }
 
@@ -556,6 +561,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
         margin-right: auto;
         padding-top: 188px;
         padding-bottom: 188px;
+        text-align: center;
     }
 }
 
@@ -601,10 +607,6 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 16px 32px;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     transition: var(--transition-dur-and-func);
 }
 
@@ -1078,8 +1080,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 
 .team-social-list {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -1468,7 +1469,6 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 
 
 
-
 /* PORTFOLIO */
 
 .portfolio-title {
@@ -1525,8 +1525,19 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     padding-bottom: 120px;
 }
 
+.subtitle-potrfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--accent-color);
+}
+
+.text-portfolio {
+    color: var(--secondary-color)
+}
+
+
 .portfolio-list-card {
-    flex-basis: calc((100% - 48px)/3);
     box-shadow: var(--portolio-card-shadow);
 }
 
